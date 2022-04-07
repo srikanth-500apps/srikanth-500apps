@@ -8,8 +8,8 @@ export default{
 name:'computeD',
 data(){
 return{
-firstname:'',
-lastname:''
+firstname:'Srikanth',
+lastname:'Munikoti'
 }
 },
 methods:{

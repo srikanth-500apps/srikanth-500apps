@@ -19,7 +19,7 @@ listItems.each(function (idx, el) {
   console.log($(el).text());
 });
 const ul = $("ul");
-ul.append("<li>Banana</li>");>s
+ul.append("<li>Banana</li>");s
   try {
     const { data } = await axios.get(url);
     const $ = cheerio.load(data);
@@ -41,6 +41,6 @@ ul.append("<li>Banana</li>");>s
     });
   } catch (err) {
     console.error(err);
-  }
+  
 }
 scrapeData();

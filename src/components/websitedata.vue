@@ -44,7 +44,7 @@ export default {
   { name: 'Saint Barthélemy', iso3: 'BLM' },
   { name: 'Belarus', iso3: 'BLR' },
   { name: 'Belize', iso3: 'BLZ' },
-  { name: 'Bermuda', iso3: 'BMU' }, iso3: 'CCK' },
+  { name: 'Bermuda', iso3: 'BMU'  },
   { name: 'Switzerland', iso3: 'CHE' },
   { name: 'Chile', iso3: 'CHL' },
   { name: 'China', iso3: 'CHN' },

@@ -6,13 +6,12 @@
 </div>
 </template>
 <script>
-import que4 from '../components/que4.vue'
+import que4 from '/home/agile/Desktop/new project/project1/src/components/que4.vue'
 export default {
   name: 'HelloWorld',
 components:{  
   que4,
-  
-},
+  },
   data(){
     return{
       message:"hi",
