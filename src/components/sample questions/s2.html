@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question2</title>
+    </head>
+    <body>
+        <h1>Question2</h1>
+        <script>
+            let array= [1, 2, 3, 4];
+                array.reduce((accumulator, currentValue, index, array) => {
+                console.log(accumulator,currentValue);
+                array[index] = array[index]*2;
+            },0);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question1</title>
+    </head>
+    <body>
+        <h1>Question1</h1>
+        <p>Here diameter is a normal function</p>
+        <p>Perimeter is an arrow function...in this function this keyword is refers to current scope</p>
+        <script>
+            const shape = {
+            radius: 10,
+            diameter() {
+            return this.radius * 2;
+        },
+            perimeter: () => 2 * Math.PI * this.radius,       };
+
+            console.log(shape.diameter());
+            console.log(shape.perimeter());
+        </script>
+    </body>
+</html>

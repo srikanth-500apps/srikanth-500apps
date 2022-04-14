@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question4</title>
+    </head>
+    <body>
+        <h1>Is array or not</h1>
+    <script>
+        var is_array = function(input) {
+        if (toString.call(input) === "[object Array]")
+        return true;
+        return false;   
+    };
+        console.log(is_array('Srikanth'));
+        console.log(is_array([1, 2, 3, 4 ]));
+    </script>
+    </body>
+</html>

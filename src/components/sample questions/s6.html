@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question4</title>
+    </head>
+    <body>
+        <h1>Most frequent item of an array</h1>
+    <script>
+       var array=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+       var a = 1;
+       var b = 0;
+       var item;
+       for (var i=0; i<array.length; i++){
+       for (var j=i; j<array.length; j++){
+        if (array[i] == array[j])
+                 b++;
+                if (a<b)
+                {
+                  a=b; 
+                  item = array[i];
+                }
+        }
+        b=0;
+}
+console.log(item+" ( " +a +" times ) ") ;
+
+    </script>
+    </body>
+</html>
