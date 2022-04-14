@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question7</title>
+    </head>
+    <body>
+        <h1>Question7</h1>
+        <script>
+            function removeDuplicates(num) {
+            var x,
+            len=num.length,
+            a=[],
+            obj={};
+ 
+        for (x=0; x<len; x++) {
+        obj[num[x]]=0;
+    }
+        for (x in obj) {
+        a.push(x);
+    }
+        return a;
+    }
+    var Mynum = [1, 2, 2, 4, 5, 4, 7, 8, 7, 3, 6];
+    result = removeDuplicates(Mynum);
+    console.log(Mynum);
+    console.log(result);
+        </script>
+    </body>
+</html>
